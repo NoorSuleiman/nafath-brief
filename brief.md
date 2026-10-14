@@ -25,10 +25,21 @@ Resource: Firebase Documentation – Enabling Offline Capabilities – https://f
 
 ## Networking
 
+5G network slicing allows a physical network to be divided into multiple logical networks, with each slice designed for different requirements. For emergency services, a dedicated slice can provide suitable performance, reliability, and resource allocation for critical communications. This can help emergency teams maintain important services even when other parts of the network are experiencing heavy traffic. Network slicing therefore supports the use of 5G for applications that require dependable and prioritized communication.
+
+Resource: 3GPP – 5G Network Slicing – https://www.3gpp.org/technologies/5g-system-overview
+
 ## Cybersecurity
+
+The incident response lifecycle provides a structured approach for handling a security incident. It includes four main phases: preparation, detection and analysis, containment, eradication and recovery, and post-incident activity. Preparation establishes plans and resources before an incident occurs. Detection and analysis identify and assess the attack. Containment limits its impact, while eradication removes the threat and recovery restores affected services. Finally, post-incident activities review what happened and identify improvements to prevent similar incidents in the future.
+
+Resource: NIST – Computer Security Incident Handling Guide (SP 800-61 Rev. 2) – https://csrc.nist.gov/pubs/sp/800/61/r2/final
 
 ## Data
 
+A star schema has a central fact table connected directly to dimension tables, making the structure simple and easier to query. A snowflake schema further normalizes the dimension tables into additional related tables, which can reduce data duplication but makes queries more complex. For daily service usage reports by region, a star schema is more suitable because the structure is simpler and supports faster and easier reporting queries.
+
+Resource: Microsoft Learn – Understand star schema and snowflake schema – https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 ## Misconception in My Track
 
 ## Open Question
