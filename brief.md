@@ -42,4 +42,8 @@ A star schema has a central fact table connected directly to dimension tables, m
 Resource: Microsoft Learn – Understand star schema and snowflake schema – https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 ## Misconception in My Track
 
+A common misconception is that network slicing simply gives emergency services a completely separate physical network. In reality, network slicing creates logical networks on shared physical infrastructure, with each slice configured to meet specific service requirements. This means emergency traffic can receive suitable resources and performance without requiring a separate physical network. 3GPP explains that network slicing allows multiple logical networks to be created on the same physical network infrastructure.
+
 ## Open Question
+
+I would like to verify how network operators prioritize emergency traffic when several network slices are competing for limited resources during a major emergency.
